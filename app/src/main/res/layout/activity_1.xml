@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#de000000">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="171dp">
+
+            <TextView
+                android:text="ค่าดัชนีมวลกาย (ฺBMI)"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/box1"
+                android:textSize="30sp"
+                android:textColor="@android:color/background_light"
+                android:gravity="center"
+                android:layout_marginTop="100dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="112dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:id="@+id/show"
+                android:textColor="@android:color/holo_orange_dark"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="71dp">
+
+            <TextView
+                android:text="อยู่ในเกณฑ์"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView6"
+                android:textSize="30sp"
+                android:gravity="center"
+                android:textColor="@android:color/background_light" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="87dp"></LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
